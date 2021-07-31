@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8"/>
+	<title>כנפיים של קרמבו</title>
+	<link rel="stylesheet" href="css/style.css?version=4" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body dir="rtl">
+    <header>
+		<div class="section">
+			<div class="logo">
+				<img src="pics/logo.jpg" />
+			</div>
+            <ul dir="rtl">
+                <li>
+                    <a href="http://www.krembo.org.il/127/%D7%99%D7%A6%D7%99%D7%A8%D7%AA-%D7%A7%D7%A9%D7%A8" target="_blank" >צור קשר</a>
+                </li>
+				<li>
+					<a href="QnA.aspx">שאלות נפוצות</a>
+				</li>
+				<li>
+					<a href="gallery.aspx">גלריה</a>
+				</li>
+				<li>
+					<a href="personalstory.aspx">סיפורים אישיים</a>
+				</li>
+				<li>
+					<a href="ourstory.aspx">הסיפור שלנו</a>
+				</li>
+				<li>
+					<a href="aboutus.aspx">מי אנחנו</a>
+				</li>
+				<li class="selected">
+					<a href="Default.aspx">דף הבית</a>
+				</li>
+			</ul>
+			<ul dir="rtl" id="menu" runat="server"></ul> <!-- רשימה ריקה לכפתורים דינאמיים-->
+		</div>
+    </header>
+
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+    </asp:ContentPlaceHolder>
+
+	<footer>
+		<div>
+			<div class="connect">
+				<a href="https://www.facebook.com/KremboWings/" target="_blank" id="facebook">facebook</a>
+			</div>
+			<p>
+				&copy; copyright 2023 | all rights reserved.
+			</p>
+		</div>
+    </footer>
+</body>
+</html>

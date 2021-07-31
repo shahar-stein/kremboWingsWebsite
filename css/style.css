@@ -1,0 +1,247 @@
+/*Website Template by freewebsitetemplates.com*/
+@font-face {
+	font-family: 'Arimo-Bold';
+	src: url('../fonts/Arimo-Bold/Arimo-Bold.eot');
+	src: url('../fonts/Arimo-Bold/Arimo-Bold.woff') format('woff'), url('../fonts/Arimo-Bold/Arimo-Bold.ttf') format('truetype'), url('../fonts/Arimo-Bold/Arimo-Bold.svg') format('svg');
+}
+@font-face {
+	font-family: 'ChangaOne';
+	src: url('../fonts/ChangaOne/ChangaOne-Regular.eot');
+	src: url('../fonts/ChangaOne/ChangaOne-Regular.woff') format('woff'), url('../fonts/ChangaOne/ChangaOne-Regular.ttf') format('truetype'), url('../fonts/ChangaOne/ChangaOne-Regular.svg') format('svg');
+}
+@font-face {
+	font-family: 'Comfortaa-Regular';
+	src: url('../fonts/Comfortaa/Comfortaa-Regular.eot');
+	src: url('../fonts/Comfortaa/Comfortaa-Regular.woff') format('woff'), url('../fonts/Comfortaa/Comfortaa-Regular.ttf') format('truetype'), url('../fonts/Comfortaa/Comfortaa-Regular.svg') format('svg');
+}
+
+.listBox{
+    width:30%;
+    margin:50px;
+    border:solid;
+    border-color:darkblue;
+}
+
+video{
+    width:60%;
+}
+
+a{
+    text-decoration:none;
+}
+
+#main{
+    background-color:aliceblue;
+}
+#main ul{
+    margin:0 100px 0 0;
+}
+#main li {
+    font-family: Arial;
+    font-size: 28px;
+    margin : 10px;
+}
+#main h1{
+    background-color:aliceblue;
+}
+#main p{
+    width:50%;
+    background-color:aliceblue;
+    font-family:'Arial Rounded MT';
+    font-size:28px;
+    float:right;
+}
+#main div{
+    font-size:28px;
+    text-align:center;
+    width:80%;
+}
+#main video{
+    margin:0 auto;
+    width:50%;
+    float:left;
+}
+#main table{
+    font-size:28px;
+}
+#main td{
+    width:50%;
+}
+#main table td video{
+    float:none;
+    width:100%;
+}
+#main #smallmenu li{
+    display:inline-block;
+    list-style:none;
+}
+#main #stories p{
+    width:100%;
+}
+#main h1{
+    font-size:30px;
+    color:blue;
+    text-align:center;
+}
+#main h3{
+    font-size:25px;
+    color:blue;
+    text-align:center;
+}
+#main image{
+    width:75%;
+    float:right;
+}
+
+article{
+    text-align:right;
+    padding:10px;
+    font-size:20px;
+}
+#report{
+    column-count:2;
+    margin:10px;
+}
+
+#gallery td{
+    width:33%;
+    padding:5px;
+}
+#gallery img{
+    width:30%;
+    transition: transform 1s;
+}
+#gallery img:hover{
+    transform:scale(5); 
+}
+
+body {
+	line-height: 1;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+input:valid {
+    border-color:green;
+    border:solid;
+}
+input:invalid{
+    border:dashed;
+    border-color:red;
+}
+
+header {
+	margin: 0 auto;
+	padding: 0;
+	width:inherit;
+	background: #ededed;
+}
+header .section {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+header .section .logo {
+	float: left;
+	margin: 0;
+	padding: 10px;
+}
+header .section ul {
+	display: inline-block;
+	float: right;
+	margin: 100px,0,0,0;
+	overflow: hidden;
+}
+header .section ul li {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin: 20px 10px 10px 10px ;
+	padding: 0;
+    font-family:'Guttman Yad-Brush';
+    border:solid;
+    border-color:darkblue;
+    border-radius:15px;
+}
+header .section ul li a {
+	color: #000;
+	display: inline-block;
+	font-size: 16px;
+	height: 30px;
+	letter-spacing: 0.05em;
+	line-height: 30px;
+	text-align: center;
+    text-decoration:none;
+}
+header .section ul li a:hover {
+	color: #ccc;
+}
+header .section ul li.selected {
+}
+header .section ul li.selected a {
+}
+
+footer {
+	background: #ededed;
+	border-top: 1px solid #9bd9e0;
+	margin: 0;
+	padding: 0;
+    direction:ltr;
+}
+footer div {
+	margin: 0 auto;
+	padding: 30px 0 28px;
+	overflow: hidden;
+	text-align: center;
+	width: 960px;
+}
+footer div p {
+	display: inline-block;
+	float: right;
+	font-size: 16px;
+	letter-spacing: 0.05em;
+	margin: 0;
+	padding: 27px 0 0;
+	text-align: center;
+}
+footer div .connect {
+	float: right;
+	height: 18px;
+	margin: 0 20px 0 150px;
+	padding: 22px 20px;
+	overflow: hidden;
+	width: 144px;
+}
+footer div .connect span {
+	color: #ededed;
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	height: 19px;
+	line-height: 21px;
+	margin: 0;
+	padding: 0 0 0 39px;
+}
+footer div .connect a {
+	background: url(../images/icons.png) no-repeat;
+	display: block;
+	float: left;
+	height: 20px;
+	margin: 0 8px;
+	padding: 0;
+	text-indent: -99999px;
+	width: 20px;
+}
+footer div .connect #facebook {
+	background-position: 0 -57px;
+}
+footer div .connect #facebook:hover {
+	background-position: -25px -57px;
+}
+
+#quizTable td{
+    border:double;
+    border-color:rebeccapurple;
+}
